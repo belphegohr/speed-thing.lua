@@ -3,6 +3,6 @@ if getgenv().fast then
   hum.WalkSpeed = 16
   getgenv().fast = false
 else
-  hum.WalkSpeed = 100
+  hum.WalkSpeed = 100000
   getgenv().fast = true
 end
